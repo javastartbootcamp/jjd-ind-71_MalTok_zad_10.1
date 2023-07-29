@@ -12,7 +12,6 @@ public class Garage {
         fillGarage();
         System.out.println("Obiekty zapisane w tablicy: ");
         showGarage();
-        closeInput();
     }
 
     private void fillGarage() {
@@ -58,9 +57,5 @@ public class Garage {
         for (int i = 0; i < tankCounter; i++) {
             System.out.println(tanks[i]);
         }
-    }
-
-    private void closeInput() {
-        input.close();
     }
 }
